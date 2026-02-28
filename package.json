@@ -1,0 +1,35 @@
+{
+  "name": "marketplace",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "hardhat": "hardhat",
+    "deploy:local": "hardhat run scripts/deploy.ts --network localhost"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "@rainbow-me/rainbowkit": "latest",
+    "wagmi": "latest",
+    "viem": "latest",
+    "@tanstack/react-query": "latest",
+    "@supabase/supabase-js": "latest",
+    "@supabase/ssr": "latest",
+    "@openzeppelin/contracts": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "@types/react": "latest",
+    "@types/node": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "hardhat": "latest",
+    "@nomicfoundation/hardhat-toolbox": "latest",
+    "ts-node": "latest"
+  }
+}
